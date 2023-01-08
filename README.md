@@ -7,13 +7,13 @@ It sends customized HTTP and HTTPS requests via the python requests library to s
 I would like to point out that the developer is not responsible for any action you take with the script.
 ### Installation
 ```console
-$ git clone https://github.com/himfatihoner/MyIntruder.git
+git clone https://github.com/himfatihoner/MyIntruder.git
 ```
 ```console
-$ cd MyIntruder
+cd MyIntruder
 ```
 ```console
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 ### Usage
 Available tags:
@@ -25,7 +25,7 @@ Available tags:
 "-r" raw request's text file location
 
 ```console
-$ python3 -p <wordlist-location> -u <URL> -r <marked-request-text-filelocation>
+python3 -p <wordlist-location> -u <URL> -r <marked-request-text-filelocation>
 ```
 ## Example Usage
 Before we start, I would like to point out that the developer is not responsible for any action you take with the script, and the IPv4 address specified in the example is not a public address but belongs to a machine created for such tests!
